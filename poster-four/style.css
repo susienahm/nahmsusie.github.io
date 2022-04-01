@@ -1,0 +1,293 @@
+body {
+    background-color:white;
+}
+
+div.poster {
+    background-color:white;
+    width:75%;
+    margin-left:200px;
+}
+
+@font-face {
+    font-family:'fontone';
+    src:url('Avara-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family:'fonttwo';
+    src:url('Zara-Oblique.woff') format('woff');
+}
+
+@font-face {
+    font-family:'fontthree';
+    src:url('Des Malers Fraktur.woff') format('woff');
+}
+
+/* 25/3/22 week (4) making columns in containers */
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col {
+    outline:1px solid black;
+    overflow:hidden;
+}
+
+div.susie {
+    margin-left:400px;
+}
+
+div.logo {
+    font-size:50px;
+}
+
+div.fontone {
+    font-family: 'fontone';
+}
+
+div.fonttwo {
+    font-family: 'fonttwo';
+}
+
+/* 1/4 grid */
+
+div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+div.w1-3 {
+    width:33.33%;
+}
+
+div.w2-3 {
+    width:66.66%;
+}
+
+div.w3-3 {
+    width:100%;
+}
+
+div.w1-4 {
+    width:25%;
+}
+
+div.w2-4 {
+    width:50%;
+}
+
+div.w3-4 {
+    width:75%;
+}
+
+div.w4-4 {
+    width:100%;
+}
+div.w1-5 {
+    width:20%;
+}
+
+div.w2-5 {
+    width:40%;
+}
+
+div.w3-5 {
+    width:60%;
+}
+
+div.w4-5 {
+    width:80%;
+}
+
+div.w5-5 {
+    width:100%
+}
+
+div.w1-6 {
+    width:16.66%;
+}
+
+div.w2-6 {
+    width:33.33%;
+}
+
+div.w3-6 {
+    width:50%;
+}
+
+div.w4-6 {
+    width:66.66%;
+}
+
+div.w5-6 {
+    width:83.33%;
+}
+
+div.w6-6 {
+    width:100%;
+}
+
+div.h400 {
+    height:400px;
+}
+
+div.h200 {
+    height:200px;
+}
+
+/* end of grid */
+
+div.text {
+    font-size:40px;
+    text-align:center;
+    color:black;
+    font-family:'fontone';
+    transition:0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:10px;
+}
+
+div.text.two {
+    font-size:20px;
+}
+
+div.text.three {
+    font-size:30px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background: linear-gradient(to right, red, white);
+}
+
+div.text.b {
+    background:red;
+}
+
+div.text.c {
+    background: linear-gradient(to right, white, red);
+}
+
+/* rule 3 */
+
+div.text.x {
+    font-weight:200;
+}
+
+div.text.y {
+    font-weight:200;
+}
+
+div.text.z {
+    font-weight:200;
+}
+
+div.small {
+    font-size:20px;
+    text-align:center;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+
+}
+
+div.side {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+    border-radius:800px;
+    width:5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:600px;
+    text-align:center;
+    border: 1px solid black;
+}
+
+div.big {
+    text-align:right;
+    margin-right:200px;
+    color:red;
+    font-family:'fontthree';
+    font-size:70px;
+}
+
+div.footertextone {
+    color:lightpink;
+    font-size:80px;
+    font-family:'fontone';
+}
+
+div.footertexttwo {
+    font-family: 'fontthree';
+    font-size:40px;
+    color:black;
+}
+
+div.footertextthree {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color:white;
+    font-size:40px;
+    font-family:'fonttwo';
+}
+
+div.footertextfour {
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+}
+
+div.bckred {
+    background:red;
+}
+
+div.bckgradone {
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+div.shadowone {
+    text-shadow: 0 1px 0 rgb(255, 239, 239),
+    0 2px 0 #ffd5d5,
+    0 3px 0 rgb(252, 189, 189),
+    0 4px 0 #fca8a8,
+    0 5px 0 rgb(252, 145, 145),
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+div.emojitwo {
+    font-size:30px;
+}
+
+div.emojithree {
+    font-size:40px;
+    margin-left:900px;
+}
+
+div.boxshadowone {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid black;
+    box-shadow: 30px 30px 40px 3px red;
+    text-align:right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    margin-right:300px;
+    margin-left:auto;
+}
