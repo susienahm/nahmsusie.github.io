@@ -1,0 +1,178 @@
+body {
+    background-color:steelblue;
+    /* background-image:url('computerman.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center bottom; */
+}
+
+div.poster {
+    width:100%;
+    /* background-image:url('spark2.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-size:cover;
+    background-size:100px;
+    background-position:right bottom; */
+}
+
+/* contain is good for illustration */
+/* cover is good for texture */
+/* position is left center right or up center down */
+
+div.text {
+    font-size:30px;
+    text-align:center;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:0.5s;
+}
+
+@font-face {
+    font-family:'font-one';
+    src:url('Avara-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family:'font-two';
+    src:url('Zara-Oblique.woff') format('woff');
+
+}
+
+@font-face {
+    font-family:'font-three';
+    src:url('Des Malers Fraktur.woff') format('woff');
+}
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col {
+    border:0.5px solid cyan;
+    box-sizing:border-box;
+}
+
+/* width */
+
+div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+div.w1-3 {
+    width:33.33%;
+}
+
+div.w2-3 {
+    width:66.66%;
+}
+
+div.w3-3 {
+    width:100%;
+}
+
+div.w1-4 {
+    width:25%;
+}
+
+div.w2-4 {
+    width:50%;
+}
+
+div.w3-4 {
+    width:75%;
+}
+
+div.w4-4 {
+    width:100%;
+}
+
+div.w1-5 {
+    width:20%;
+}
+
+div.w2-5 {
+    width:40%;
+}
+
+div.w3-5 {
+    width:60%;
+}
+
+div.w4-5 {
+    width:80%;
+}
+
+div.w5-5 {
+    width:100%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:20px;
+}
+
+div.text.two {
+    font-size:60px;
+}
+
+div.text.three {
+    font-size:100px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background-image:url('man-one.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center center;
+    color: transparent;
+}
+
+div.text.b {
+    background-image:url('man-two.png');
+    background-size:250px;
+    background-position: left bottom;
+    color:transparent;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+div.text.c {
+    background-image:url('man-three.png');
+    background-repeat:no-repeat;
+    background-size:400px;
+    background-size:contain;
+}
+
+/* rule 3 */
+
+div.text.x {
+    
+}
+
+div.text.y {
+    
+}
+
+div.text.z {
+    
+}
+
+/* end of rules */
+
+div.small {
+    font-size:20px;
+    text-align:center;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+
