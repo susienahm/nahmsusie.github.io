@@ -1,0 +1,69 @@
+body {
+    background-color:mediumvioletred;
+}
+
+div.poster {
+    background-color:white;
+    width:75%;
+    border-radius:800px;
+    margin-left:200px;
+}
+
+div.text {
+    font-size:70px;
+    text-align:center;
+    color:lightpink;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition:0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:30px;
+}
+
+div.text.two {
+    font-size:60px;
+}
+
+div.text.three {
+    font-size:160px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color:mediumpurple;
+}
+
+div.text.b {
+    color:darkmagenta;
+}
+
+div.text.c {
+    color:fuchsia;
+}
+
+/* rule 3 */
+
+div.text.x {
+    font-weight:200;
+}
+
+div.text.y {
+    font-weight:600;
+}
+
+div.text.z {
+    font-weight:900;
+}
+
+div.small {
+    font-size:20px;
+    text-align:center;
+    color:violet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+
+}
