@@ -1,0 +1,201 @@
+body {
+    background-color:white;
+}
+
+div.poster {
+    width:100%;
+}
+
+div.text {
+    font-size:30px;
+    text-align:center;
+    color:black;
+    font-family:'font-five';
+    transition:1s;
+}
+
+
+@font-face {
+    font-family:'font-three';
+    src:url('Des Malers Fraktur.woff') format('woff');
+}
+
+@font-face {
+    font-family:'font-four';
+    src:url('dream orphans bd.woff') format('woff');
+}
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col {
+    box-sizing:border-box;
+    font-family:'font-four';
+    font-size:70px;
+}
+
+div.center {
+    text-align:center;
+}
+
+div.round-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.round-one {
+    width:190px;
+    height:190px;
+    border-radius: 50%;
+    animation:scale 2s infinite ease-in-out alternate;
+    border:black solid 1px;
+    margin-top:120px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    text-align:center;
+  }
+
+  div.round-two {
+    width:130px;
+    height:200px;
+    border-radius: 50%;
+    animation:scale 2s infinite ease-in-out alternate;
+  }
+
+  div.round-three {
+      width:320px;
+      height:390px;
+      animation:skew 3s infinite alternate;
+      background:radial-gradient(circle, red, white 80%);
+      /* background-image:url('tree3.png'); */
+      background-size:300px;
+      border-radius:600px;
+      margin-left:200px;
+      box-shadow: 10px 20px 30px red;
+      font-family:'font-three';
+      font-size:25px;
+  }
+
+  div.round-four {
+      width:440px;
+      height:500px;
+      animation:rotate1 2s infinite alternate;
+      background:radial-gradient(circle,red, white 75%);
+      /* background-image:url('tree1.png'); */
+      background-size:500px;
+      border-radius:600px;
+      box-shadow: 0px 0px 50px red;
+  }
+
+  div.round-five {
+      width:350px;
+      height:450px;
+      animation:rotate2 1.5s infinite alternate;
+      background:radial-gradient(circle, red, white 90%);
+      /* background-image:url('tree2.png'); */
+      background-size:500px;
+      border-radius:600px;
+      box-shadow: 0px 10px 10px red;
+  }
+
+  @keyframes scale {
+    0% {
+      transform:scale(0.8);
+    }
+    100% {
+      transform:scale(1);
+    }
+  }
+
+  @keyframes skew {
+      0% {
+          transform:rotatex(50deg);
+      }
+      100% {
+          transform:skew(40deg);
+      }
+  }
+
+  @keyframes rotate1 {
+      0% {
+          transform:rotatex(-40deg);
+      }
+      100% {
+          transform:rotatey(50deg);
+      }
+  }
+
+  @keyframes rotate2 {
+      0% {
+          transform:rotatez(20deg);
+      }
+      100% {
+          transform:rotatey(-40deg);
+      }
+  }
+
+
+    /* width */
+div.w1-5 {
+    width:20%;
+}
+
+div.w2-5 {
+    width:40%;
+}
+
+div.w3-5 {
+    width:60%;
+}
+
+div.w4-5 {
+    width:80%;
+}
+
+div.w5-5 {
+    width:100%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    transform: skew(10deg);
+}
+
+div.text.two {
+    transform: skew(-10deg);
+}
+
+div.text.three {
+    transform: skew(0deg);
+}
+
+/* rule 2 */
+
+div.text.a {
+    color:red;
+}
+
+div.text.b {
+    color:black;
+}
+
+div.text.c {
+    color:black;
+}
+
+/* rule 3 */
+
+div.text.x {
+    font-size:40px;
+}
+
+div.text.y {
+    font-size:30px
+}
+
+div.text.z {
+    font-size:80px;
+}
