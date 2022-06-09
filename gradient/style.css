@@ -1,0 +1,48 @@
+body {
+    background-color:white;
+}
+
+div.poster {
+    background-color:white;
+    width:75%;
+    border-radius:800px;
+    margin-left:200px;
+}
+
+div.text {
+    font-size:70px;
+    text-align:center;
+    color:lightpink;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition:0.5s;
+}
+
+
+
+/* boxshadow */
+div.boxshadow {
+    margin-left:100px;
+    background-color:white;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    box-shadow:30px 30px 40px 3px black;
+}
+
+/* gradient */
+div.gradient {
+    height: 100px;
+    background: linear-gradient(to right, red, blue, green);
+    margin-bottom: 20px;
+    margin-left:400px;
+}
+
+div.round {
+    width:9%;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    border: 1px solid black;
+    border-radius: 600px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

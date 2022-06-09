@@ -1,0 +1,89 @@
+body {
+    background-image:url('images/1998.gif');
+    background-repeat:no-repeat;
+    background-size:100%;
+    font-family:arial;
+    font-size:24px;
+}
+
+a {
+    color:102,51,102;
+    text-decoration:none;
+}
+
+div.home {
+    font-family:arial;
+    padding:10px;
+}
+
+div.one {
+    margin-left:20%;
+    margin-top:10%;
+}
+
+div.two {
+    margin-left:60%;
+    margin-top:15%;
+}
+
+div.three {
+    margin-left:15%;
+    margin-top:15%;
+}
+
+div.four {
+    margin-left:35%;
+    margin-top:12%;
+}
+
+div.five {
+    margin-left:60%;
+    margin-top:5%;
+}
+
+div.six {
+    margin-left:30%;
+    margin-top:18%;
+}
+
+div.seven {
+    margin-left:25%;
+    margin-top:12%
+}
+
+div.eight {
+    margin-left:62%;
+    margin-top:10%;
+}
+
+div.nine {
+    margin-left:14%;
+    margin-top:2%;
+}
+
+div.ten {
+    margin-left:70%;
+    margin-top:1%;
+}
+
+div.eleven {
+    margin-left:38%;
+    margin-top:0%
+}
+
+div.twelve {
+    margin-left:32%;
+    margin-top:5%;
+}
+
+img {
+    border:solid 1px black;
+}
+
+div.pushright {
+    margin-right:30px;
+}
+
+div.small {
+    width:200px;
+}
